@@ -66,13 +66,14 @@ export default class Option extends Component {
         this.zoomOut();
         if(this.verify(x, y)) {
             console.log('released on:', this.props.number);
-            this.props.updateIndex(this.props.number);
+
         }
     }
 
     zoomIn() {
-        const {color, icon} = this.props;
+        const {color, icon, number} = this.props;
         this.props.updateIcon(color, icon);
+        this.props.updateIndex(number);
         Animated.spring(
             this.state.scale,
             {toValue: 1.2}
