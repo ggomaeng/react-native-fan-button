@@ -8,6 +8,8 @@ related to feedback UI from scratch!
 
 ###Demo
 ![Demo](https://raw.githubusercontent.com/ggomaeng/react-native-fan-button/master/demo.gif)
+
+Disclaimer: Google colors and image was only used to help demonstration purposes.
 ## Try it out
 
 Try it with Exponent: https://getexponent.com/@sungwoopark95/react-native-fan-button
