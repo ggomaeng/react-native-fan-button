@@ -4,10 +4,10 @@ Pure javascript fan button for React Native framework. The menu with options exp
 ##Inspiration
 
 I was inspired by [Yousef Kama's feedback UI challenge](https://medium.com/@yousefkama/react-native-ui-challenge-1-42db390905c#.vquzar3pa), so I decided to create something 
-related to feedback UI from scratch!
+related to feedback UI from scratch! 
 
 ###Demo
-![demo](https://raw.githubusercontent.com/ggofan-demo.gifmaeng/react-native-fan-button/master/demo.gif)
+![demo](https://raw.githubusercontent.com/ggomaeng/react-native-fan-button/master/demo.gif)
 
 ## Try it out
 
