@@ -7,8 +7,7 @@ I was inspired by [Yousef Kama's feedback UI challenge](https://medium.com/@yous
 related to feedback UI from scratch! 
 
 ###Demo
-![demo](https://raw.githubusercontent.com/ggomaeng/react-native-fan-button/master/demo.gif)
-
+![Demo](https://raw.githubusercontent.com/ggomaeng/react-native-fan-button/master/demo.gif)
 ## Try it out
 
 Try it with Exponent: https://getexponent.com/@sungwoopark95/react-native-fan-button
