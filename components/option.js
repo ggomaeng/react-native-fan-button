@@ -26,9 +26,8 @@ export default class Option extends Component {
 
     componentDidMount() {
         const {number, size} = this.props;
+        console.log('why is measure not working', number ,size);
         setTimeout(() => this.refs.view.measure((a, b, w, h, px, py) => {
-            //center is (px + width) / 2, (py + h) /2
-            let cX = (px + w) / 2, cY = (py + h) /2;
             let offset = {x: 0, y: 0};
             switch (number) {
                 case 0:
@@ -48,6 +47,7 @@ export default class Option extends Component {
             this.validRange.x1 = offset.x + w + px;
             this.validRange.y0 = offset.y + py;
             this.validRange.y1 = offset.y + h + py;
+            console.log(this.validRange);
         }), 0);
     }
 
@@ -137,15 +137,12 @@ export default class Option extends Component {
                 break;
             case 3:
                 offset = {x: (size), y: 0};
-
         }
 
         Animated.timing(
             this.state.move,
             {toValue: offset}
-        ).start(() => {
-            console.log('i should measure now');
-        });
+        ).start();
     }
 
     moveIn() {
@@ -161,7 +158,7 @@ export default class Option extends Component {
         const offset = size/4;
 
         return (
-            <View ref='view' style={{position: 'absolute', top: offset, left: offset}}>
+            <View ref='view' onLayout={(event) => {}} style={{position: 'absolute', top: offset, left: offset}}>
                 <Animated.View style={this._getStyle()}>
                     <Ionicons name={icon} color='white' size={size/5}/>
                 </Animated.View>

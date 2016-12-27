@@ -1,6 +1,11 @@
 #react-native-fan-button
 Pure javascript fan button for React Native framework. The menu with options expand when clicked on.
 
+Android version is broken due to this issue: https://github.com/facebook/react-native/issues/3282
+
+If anyone knows a work-around, issue a flag. If anyone wants to resolve this in most clean way possible
+and submit a PR, I'd appreciate it! :-)
+
 ##Inspiration
 
 I was inspired by [Yousef Kama's feedback UI challenge](https://medium.com/@yousefkama/react-native-ui-challenge-1-42db390905c#.vquzar3pa), so I decided to create something 
